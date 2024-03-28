@@ -1,0 +1,177 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+overflow-x: hidden;
+}
+.row{
+    --bs-gutter-y:1rem;
+}
+nav{
+    width: 100%;
+    /* height: 95px; */
+    line-height: 75px;
+    padding: 0px 100px;
+    /* position: fixed;  */
+    background-color: #3c1738;
+   }
+nav .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+nav li a{
+    font-size: 15px;
+    text-transform: uppercase;
+    padding:10px;
+    color: white;
+    text-decoration: none;
+    width: 25%;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.content-items{
+    height: 500px;
+    background-image: url(2ndimg.jpeg);
+      color: #1a1717;
+      position: relative;
+      z-index: 0;
+ }
+.content-items div{
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-right: 0px;
+    line-height: normal;
+    font-size: 7px; 
+  }
+h1, h2, h3, h4, h5, h6{
+    line-height: normal;
+    text-transform: none;
+    width: 100%;
+    
+}
+.form-content{
+   margin-top: 0px;
+   text-align: center;
+   font-size: medium;
+   color: #fff;
+   line-height: normal;
+   padding:10px;
+}
+.form{
+    margin-top: 0px;
+    z-index: 9999;
+    border: 2px solid #fff ;
+    border-radius: 10px;
+}
+.row-content{
+   text-align: center;
+   font-size: medium;
+   margin-top: 90px;
+   font: bold;
+}
+.card{
+    flex-direction: column;
+   display: flex;
+   position: relative;
+   border-radius: 0.25rem;
+
+}
+
+.content{
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-right: 0px;
+    line-height: normal;
+    font-size: 7px; 
+    background-color: rgb(243, 176, 88);
+}
+
+.card{
+    word-wrap: normal;
+    line-height: normal;
+    
+   }
+   .text-small{
+    font-size: 12px;
+   }
+
+
+   .row-content{
+    text-align: center;
+    font-size: medium;
+    margin-bottom: 21px;
+    font: bold;
+    margin-top: 0px;
+   }
+
+  .btn_des{
+    padding: 10px;
+    margin-top: 0px;
+  }
+
+   .card-content{
+    margin-top: -0px;
+   }
+
+.card-img{
+    margin-bottom: 0px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 0px;
+    line-height: normal;
+    font-size: 7px; 
+}
+
+.new-sec{
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 0px;
+    line-height: normal;
+     
+    font-size: 14px;
+}
+
+
+/* .img_1{
+    overflow-y: hidden;
+    margin-top: 20px;
+    width: 45%;
+} */
+
+/* .para{
+    height: 250px;
+} */
+.class-form{
+    margin-top: 80px;
+    margin-left: 80px; 
+    
+}
+
+.foot{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+.foot-text-color{
+    color:aliceblue;
+}
